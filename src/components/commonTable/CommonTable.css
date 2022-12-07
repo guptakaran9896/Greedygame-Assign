@@ -1,0 +1,27 @@
+table {
+    width: 100%;
+    overflow: scroll;
+    position: relative;
+}
+
+table, th {
+    position: relative;
+    background-color: #ffff;
+}
+
+
+table, th, td {
+    border-collapse: collapse;
+    font-family: calibri;
+    font-size: 18px;
+    color: #1D1A1A;
+}
+
+td {
+    border-top: 0.1px solid rgba(112,112,112,0.3);
+}
+
+th, td {
+    padding: 10px 20px 10px 20px;
+    text-align: left;
+}

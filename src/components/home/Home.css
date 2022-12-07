@@ -1,0 +1,135 @@
+.mainContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 28px 28px 28px;
+    font-family: calibri;
+    align-items: stretch;
+}
+
+.heading {
+    font-family: calibri;
+    font-size: 24px;
+    font-weight: 600;   
+    color: #1D1A1A;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+}
+
+.dateSettingsDisplay {
+    flex: 1;
+}
+
+.tableDisplay {
+    flex: 10;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    overflow-y:  scroll;
+}
+
+.appName {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    gap: 10px;
+}
+
+.appNameImage {
+    height: 26px;
+    width: 26px;
+}
+
+.clicks {
+    text-align: end;
+}
+
+.tableHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: stretch;
+    height: 100%;
+    width: 100%;
+    row-gap: 12px;
+    color: #707070;
+}
+
+.tableHeader > img {
+    height: 20px;
+    width: 20px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.alignHeaderStart {
+    align-items: flex-start;
+}
+
+.alignHeaderEnd {
+    align-items: flex-end;
+}
+
+.summaryText {
+    font-family: Calibri;
+    font-size: 22px;
+    font-weight: 500;
+    color: #212121;
+    font-weight: 500;
+}
+
+.inputRangeContainer {
+    width: 250px;
+    min-height: 80px;
+    position: absolute;
+    font-family: Calibri;
+    font: 14px;
+    font-weight: 500;
+    color: #1D1A1A;
+    background: #FFFFFF;
+    border: 2px solid #EAEAEA;
+    border-radius: 7px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: stretch;
+    row-gap: 12px;
+    top: 60%; 
+    z-index: 1;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;  
+}
+
+.inputRangeButtonsContainer {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.resetButton {
+    background-color: transparent;
+    border: transparent;
+    color: #1D1A1A;
+    font-weight: 600;
+}
+
+.inputRange {
+    width: 100%;
+}
+
+.inputRanges {
+    display: flex;
+    justify-content: space-between;
+    font-family: Calibri;
+    font-size: 15px;
+    color: #212121;
+    width: 100%;
+}

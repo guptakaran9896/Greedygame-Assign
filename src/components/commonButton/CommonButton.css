@@ -1,0 +1,20 @@
+.buttonEnabled {
+    background: #136FED;
+    min-height: 32px;
+    min-width: auto;
+    border-radius: 3px;
+    font-family: calibri;
+    font-size: 18px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 0px 14px 0px 14px;
+    cursor: pointer;
+}
+
+.buttonDisabled {
+    opacity: 0.5;
+}

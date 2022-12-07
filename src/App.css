@@ -1,0 +1,51 @@
+html, body {
+  background-color: grey;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: stretch;
+}
+
+/* .sideBar {
+  flex-shrink: 0;
+  flex-basis: 5vw;
+  background-color: #192F48;
+  height: 100vh;
+} */
+
+.content {
+  flex-basis: 100vw;
+  background-color: #FFFFFF;
+  height: 100vh;
+  display: flex;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white ;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #136FED;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #603be6;
+}
